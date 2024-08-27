@@ -26,7 +26,7 @@ for row in open(product_path):
 
 
 #tran_dtl file
-#print("opening tran dtl file")
+print("opening tran dtl file")
 
 for row in open(tran_dtl_path):
     if (count == 0):
@@ -45,4 +45,4 @@ for key,value in product_dict.items():
         line = value + tran_dtl_dict[key]
         inner_join.append(line)
 
-print(inner_join)
+#rint(inner_join)
